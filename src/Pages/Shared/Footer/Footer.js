@@ -11,23 +11,6 @@ const Footer = () => {
         <footer className="page-footer bg text-white font-small  pt-4">
             <div className="container-fluid text-center text-md-left">
                 <div className="row">
-                    <div className="col-md-6 mt-3 ">
-                        <h5 className="text ">We Care For Your Health</h5>
-                        <h7 className="mb-5 ">Email Us by </h7>
-                        <h8 className="texts"><span className="icon">   </span>medicarehelpline@gmail.com </h8>
-                        <div className="d-flex justify-content-center">
-                            <div class="form-group mt-5">
-                                <div class="col-sm-10 w-100 ">
-                                    <input type="email" className="form-control " id="email" placeholder="Enter Your Email" />
-                                </div>
-                            </div>
-                            <div className="mx-3">
-                                <button type="button" className="btn btn-success mt-5">Submit</button>
-                            </div>
-                        </div>
-
-                    </div>
-
                     <hr className="clearfix w-100 d-md-none pb-0" />
 
                     <div className="col-md-3 mb-md-0 mb-3">
@@ -49,6 +32,27 @@ const Footer = () => {
                         </ul>
 
                     </div>
+
+
+
+                    <div className="col-md-6 mt-3 ">
+                        <h5 className="text ">We Care For Your Health</h5>
+                        <h7 className="mb-5 ">Email Us by </h7>
+                        <h8 className="texts"><span className="icon">   </span>medicarehelpline@gmail.com </h8>
+                        <div className="d-flex justify-content-center">
+                            <div class="form-group mt-5">
+                                <div class="col-sm-10 w-100 ">
+                                    <input type="email" className="form-control " id="email" placeholder="Enter Your Email" />
+                                </div>
+                            </div>
+                            <div className="mx-3">
+                                <button type="button" className="btn btn-success mt-5">Submit</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
 
                 </div>
             </div>
