@@ -12,12 +12,12 @@ const Header = () => {
 
             <Navbar sticky="top" collapseOnSelect expand="lg" bg="myRed"  >
                 <Container>
-                    <Navbar.Brand as={HashLink} to="/" className="fs-1"> <span className="text-white">Medi Care</span>  </Navbar.Brand>
+                    <Navbar.Brand as={HashLink} to="/" className="fs-1"> <span className="text-white" >Wheels</span> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto">
                             <Nav.Link as={HashLink} to="/"><span className="text-white" >Home</span></Nav.Link>
-                            <Nav.Link as={HashLink} to="/#services"><span className="text-white" >Services</span></Nav.Link>
+                            <Nav.Link as={HashLink} to="/cars"><span className="text-white" >Cars</span></Nav.Link>
                             <Nav.Link as={HashLink} to="/#doctors"><span className="text-white" >Doctor</span></Nav.Link>
                             <Nav.Link as={HashLink} to="/#doctors"><span className="text-white" >Appointment</span></Nav.Link>
                             <Nav.Link as={HashLink} to="/contact"><span className="text-white" >Contact</span></Nav.Link>

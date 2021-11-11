@@ -1,20 +1,26 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Cars from './Pages/CarComponents/Cars/Cars';
 import Home from './Pages/HomeComoponents/Home/Home';
+import AuthProvider from './context/AuthProvider'
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
+      <AuthProvider>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/cars">
+              <Cars />
+            </Route>
 
-        </Switch>
+          </Switch>
 
-      </BrowserRouter>
-
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }
